@@ -15,6 +15,11 @@
     h1 {
         color: #07203f;
         text-align: center;
-        font-size: 4rem;
+        font-size: 2rem;
+    }
+    @media screen and (min-width: 768px) {
+        h1 {
+            font-size: 4rem;
+        }
     }
 </style>
