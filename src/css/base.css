@@ -3,8 +3,8 @@
     --pink: #ff9999;
     --light-color: #f2f0e7;
     --light-blue: #a1bacb;
-    --dark-blue: #16537e;
-    --red: red;
+    --dark-blue: #0057B7;
+    --red: #d52b1e;
     --yellow: yellow;
     --white: white;
 }
@@ -14,7 +14,7 @@ html {
     font-weight: 400;
     font-style: normal;
 }
-h1 {
+h1, h2 {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -55,6 +55,16 @@ label {
 
 a {
     color: inherit;
+}
+
+
+.svgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column{
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
